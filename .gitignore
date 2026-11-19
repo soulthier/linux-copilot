@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data & Models (тяжёлые файлы генерируются скриптами)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.gguf
+*.safetensors
+lora_adapters/
+
+# Environment & Local DBs
+.env
+qdrant_storage/
+chroma_db/
+.ipynb_checkpoints/
