@@ -1,5 +1,6 @@
-# SecOps Copilot
+# Linux CLI & Docs Copilot — RAG + QLoRA Fine-Tuning
 
+Grounded QA system for Linux commands and manuals using ChromaDB retrieval, FastAPI, QLoRA-adapted Qwen2.5-7B, and local Ollama inference.
 Retrieval-Augmented Generation (RAG) assistant for SecOps, Linux administration, and MITRE ATT&CK queries, paired with a 4-bit **QLoRA** fine-tuning pipeline for **Qwen2.5-7B-Instruct** and an automated evaluation harness.
 
 ## Architecture
