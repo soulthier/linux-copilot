@@ -103,3 +103,10 @@ python eval_lora_hf.py \
 - Merge the `v2` LoRA adapter into base weights and export to GGUF (`Q4_K_M`) for faster local inference via Ollama.
 - Improve chunking, `top_k`, and similarity filtering in `/search` to boost `term_recall` on multi-fact SecOps and Linux queries.
 - Expand `eval_cases.json` with more edge cases and cross-lingual checks.
+## Local Inference via Ollama
+
+After merging the QLoRA adapter and quantizing to GGUF (`Q4_K_M`), register the model locally with the included `Modelfile`:
+
+```bash
+ollama create secops-copilot:v2 -f Modelfile
+ollama run secops-copilot:v2
