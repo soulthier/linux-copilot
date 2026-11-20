@@ -1,0 +1,26 @@
+services:
+  # Ваш существующий сервис n8n
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: secops-n8n
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - n8n_data:/home/node/.n8n
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # Новый сервис для вашего FastAPI
+  api:
+    build: .                  # Собираем образ из Dockerfile в текущей папке
+    container_name: secops-api
+    ports:
+      - "8000:8000"           # Пробрасываем порт, чтобы открывать /docs в браузере
+    volumes:
+      - ./chroma_db:/app/chroma_db  # Монтируем базу данных, чтобы данные не потерялись
+      - ~/.cache/huggingface:/root/.cache/huggingface # Монтируем кэш модели (чтобы не скачивать заново)
+
+volumes:
+  n8n_data:

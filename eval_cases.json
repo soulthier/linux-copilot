@@ -1,0 +1,69 @@
+[
+  {
+    "id": "sec_01",
+    "query": "LSASS credential dumping mitigation",
+    "collection": "secops_knowledge",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": ["lsass"],
+    "top_k": 3,
+    "min_similarity": 0.35,
+    "max_context_chars": 7000
+  },
+  {
+    "id": "sec_02",
+    "query": "T1027.018 invisible unicode detection and mitigation",
+    "collection": "secops_knowledge",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": ["t1027.018", "unicode"],
+    "top_k": 3,
+    "min_similarity": 0.35,
+    "max_context_chars": 7000
+  },
+  {
+    "id": "sec_03_ru",
+    "query": "Какие методы обнаружения и защиты описаны для техники скрытия данных?",
+    "collection": "secops_knowledge",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": [],
+    "top_k": 3,
+    "min_similarity": 0.35,
+    "max_context_chars": 7000
+  },
+  {
+    "id": "linux_01",
+    "query": "systemd service unit restart policy and journalctl logs",
+    "collection": "linux_ops",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": ["systemd"],
+    "top_k": 3,
+    "min_similarity": 0.30,
+    "max_context_chars": 7000
+  },
+  {
+    "id": "linux_02",
+    "query": "how to inspect network sockets and open ports on linux",
+    "collection": "linux_ops",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": [],
+    "top_k": 3,
+    "min_similarity": 0.30,
+    "max_context_chars": 7000
+  },
+  {
+    "id": "unanswerable_01",
+    "query": "Quantum warp drive calibration procedure for orbital stations",
+    "collection": "secops_knowledge",
+    "source": null,
+    "expected_ids": [],
+    "expected_terms": [],
+    "expect_empty_or_refusal": true,
+    "top_k": 3,
+    "min_similarity": 0.45,
+    "max_context_chars": 7000
+  }
+]

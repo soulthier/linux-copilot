@@ -1,20 +1,23 @@
-# Python
 .venv/
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
-
-# Data & Models (тяжёлые файлы генерируются скриптами)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-*.gguf
-*.safetensors
-lora_adapters/
-
-# Environment & Local DBs
-.env
-qdrant_storage/
-chroma_db/
 .ipynb_checkpoints/
+.vscode/
+.idea/
+chroma_db/
+data/processed/*.jsonl
+data/raw/
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.zip
+*.tar.gz
+eval_report_*.json
+.env
+.env.*
+data/processed/linux_man_docs.json

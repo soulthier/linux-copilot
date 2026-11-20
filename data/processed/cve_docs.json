@@ -1,0 +1,1618 @@
+[
+  {
+    "doc_id": "CVE-1999-0095",
+    "title": "CVE-1999-0095 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0095\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nThe debug command in Sendmail is enabled, allowing attackers to execute commands as root."
+  },
+  {
+    "doc_id": "CVE-1999-0082",
+    "title": "CVE-1999-0082 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0082\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nCWD ~root command in ftpd allows root access."
+  },
+  {
+    "doc_id": "CVE-1999-1471",
+    "title": "CVE-1999-1471 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1471\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field."
+  },
+  {
+    "doc_id": "CVE-1999-1122",
+    "title": "CVE-1999-1122 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1122\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1467",
+    "title": "CVE-1999-1467 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1467\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user."
+  },
+  {
+    "doc_id": "CVE-1999-1506",
+    "title": "CVE-1999-1506 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1506\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nVulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin."
+  },
+  {
+    "doc_id": "CVE-1999-0084",
+    "title": "CVE-1999-0084 [HIGH]",
+    "severity": "HIGH",
+    "score": 8.4,
+    "cwes": [
+      "CWE-269"
+    ],
+    "text": "CVE ID: CVE-1999-0084\nSeverity: HIGH (Score: 8.4)\nWeaknesses: CWE-269\n\nDescription:\nCertain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0."
+  },
+  {
+    "doc_id": "CVE-2000-0388",
+    "title": "CVE-2000-0388 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-2000-0388\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable."
+  },
+  {
+    "doc_id": "CVE-1999-0209",
+    "title": "CVE-1999-0209 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0209\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nThe SunView (SunTools) selection_svc facility allows remote users to read files."
+  },
+  {
+    "doc_id": "CVE-1999-1198",
+    "title": "CVE-1999-1198 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1198\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1391",
+    "title": "CVE-1999-1391 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1391\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions."
+  },
+  {
+    "doc_id": "CVE-1999-1392",
+    "title": "CVE-1999-1392 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1392\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1057",
+    "title": "CVE-1999-1057 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1057\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command."
+  },
+  {
+    "doc_id": "CVE-1999-1554",
+    "title": "CVE-1999-1554 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1554\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\n/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users."
+  },
+  {
+    "doc_id": "CVE-1999-1197",
+    "title": "CVE-1999-1197 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1197\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nTIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1115",
+    "title": "CVE-1999-1115 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1115\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh)."
+  },
+  {
+    "doc_id": "CVE-1999-1258",
+    "title": "CVE-1999-1258 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1258\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nrpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information."
+  },
+  {
+    "doc_id": "CVE-1999-1438",
+    "title": "CVE-1999-1438 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1438\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments."
+  },
+  {
+    "doc_id": "CVE-1999-1211",
+    "title": "CVE-1999-1211 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1211\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1212",
+    "title": "CVE-1999-1212 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1212\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1194",
+    "title": "CVE-1999-1194 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1194\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nchroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1193",
+    "title": "CVE-1999-1193 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1193\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nThe \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root."
+  },
+  {
+    "doc_id": "CVE-1999-1123",
+    "title": "CVE-1999-1123 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1123\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall."
+  },
+  {
+    "doc_id": "CVE-1999-1034",
+    "title": "CVE-1999-1034 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1034\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in login in AT&T System V Release 4 allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1415",
+    "title": "CVE-1999-1415 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1415\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1090",
+    "title": "CVE-1999-1090 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1090\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modify arbitrary files."
+  },
+  {
+    "doc_id": "CVE-1999-0498",
+    "title": "CVE-1999-0498 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0498\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nTFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files."
+  },
+  {
+    "doc_id": "CVE-1999-1468",
+    "title": "CVE-1999-1468 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1468\nSeverity: MEDIUM (Score: 6.2)\nWeaknesses: N/A\n\nDescription:\nrdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable."
+  },
+  {
+    "doc_id": "CVE-1999-0167",
+    "title": "CVE-1999-0167 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0167\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nIn SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system."
+  },
+  {
+    "doc_id": "CVE-1999-1493",
+    "title": "CVE-1999-1493 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1493\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk()."
+  },
+  {
+    "doc_id": "CVE-1999-1032",
+    "title": "CVE-1999-1032 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1032\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1059",
+    "title": "CVE-1999-1059 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1059\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-0627",
+    "title": "CVE-1999-0627 [LOW]",
+    "severity": "LOW",
+    "score": 0.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0627\nSeverity: LOW (Score: 0.0)\nWeaknesses: N/A\n\nDescription:\nThe rexd service is running, which uses weak authentication that can allow an attacker to execute commands."
+  },
+  {
+    "doc_id": "CVE-1999-1121",
+    "title": "CVE-1999-1121 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1121\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0117",
+    "title": "CVE-1999-0117 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0117\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nAIX passwd allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1119",
+    "title": "CVE-1999-1119 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1119\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nFTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-1142",
+    "title": "CVE-1999-1142 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1142\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user."
+  },
+  {
+    "doc_id": "CVE-1999-0168",
+    "title": "CVE-1999-0168 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0168\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions."
+  },
+  {
+    "doc_id": "CVE-1999-0214",
+    "title": "CVE-1999-0214 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0214\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nDenial of service by sending forged ICMP unreachable packets."
+  },
+  {
+    "doc_id": "CVE-1999-1396",
+    "title": "CVE-1999-1396 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1396\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash)."
+  },
+  {
+    "doc_id": "CVE-1999-1395",
+    "title": "CVE-1999-1395 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1395\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1306",
+    "title": "CVE-1999-1306 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1306\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nCisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to bypass filters."
+  },
+  {
+    "doc_id": "CVE-1999-1466",
+    "title": "CVE-1999-1466 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1466\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the \"established\" keyword."
+  },
+  {
+    "doc_id": "CVE-1999-1021",
+    "title": "CVE-1999-1021 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1021\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nNFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade."
+  },
+  {
+    "doc_id": "CVE-1999-1056",
+    "title": "CVE-1999-1056 [UNKNOWN]",
+    "severity": "UNKNOWN",
+    "score": null,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1056\nSeverity: UNKNOWN (Score: N/A)\nWeaknesses: N/A\n\nDescription:\nRejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage"
+  },
+  {
+    "doc_id": "CVE-1999-0312",
+    "title": "CVE-1999-0312 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0312\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nHP ypbind allows attackers with root privileges to modify NIS data."
+  },
+  {
+    "doc_id": "CVE-1999-1507",
+    "title": "CVE-1999-1507 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1507\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash."
+  },
+  {
+    "doc_id": "CVE-1999-1218",
+    "title": "CVE-1999-1218 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1218\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nVulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files."
+  },
+  {
+    "doc_id": "CVE-1999-1312",
+    "title": "CVE-1999-1312 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1312\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1216",
+    "title": "CVE-1999-1216 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1216\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nCisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-route\" command."
+  },
+  {
+    "doc_id": "CVE-1999-1162",
+    "title": "CVE-1999-1162 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.4,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1162\nSeverity: MEDIUM (Score: 6.4)\nWeaknesses: N/A\n\nDescription:\nVulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system."
+  },
+  {
+    "doc_id": "CVE-1999-0124",
+    "title": "CVE-1999-0124 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0124\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon."
+  },
+  {
+    "doc_id": "CVE-1999-1215",
+    "title": "CVE-1999-1215 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1215\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nLOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1138",
+    "title": "CVE-1999-1138 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1138\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nSCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to gain access to those accounts since /tmp and /usr/tmp are world-writable."
+  },
+  {
+    "doc_id": "CVE-1999-1318",
+    "title": "CVE-1999-1318 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1318\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\n/usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs."
+  },
+  {
+    "doc_id": "CVE-1999-0145",
+    "title": "CVE-1999-0145 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0145\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSendmail WIZ command enabled, allowing root access."
+  },
+  {
+    "doc_id": "CVE-1999-1137",
+    "title": "CVE-1999-1137 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1137\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nThe permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor conversations happening near a machine that has a microphone."
+  },
+  {
+    "doc_id": "CVE-1999-0334",
+    "title": "CVE-1999-0334 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0334\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nIn Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0181",
+    "title": "CVE-1999-0181 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.8,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0181\nSeverity: MEDIUM (Score: 6.8)\nWeaknesses: N/A\n\nDescription:\nThe wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands."
+  },
+  {
+    "doc_id": "CVE-1999-1242",
+    "title": "CVE-1999-1242 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1242\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0211",
+    "title": "CVE-1999-0211 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0211\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nExtra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone."
+  },
+  {
+    "doc_id": "CVE-1999-0338",
+    "title": "CVE-1999-0338 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0338\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nAIX Licensed Program Product performance tools allow local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0120",
+    "title": "CVE-1999-0120 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0120\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSun/Solaris utmp file allows local users to gain root access if it is writable by users other than root."
+  },
+  {
+    "doc_id": "CVE-1999-1135",
+    "title": "CVE-1999-1135 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1135\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994 and PHSS_5438."
+  },
+  {
+    "doc_id": "CVE-1999-1146",
+    "title": "CVE-1999-1146 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1146\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users to access arbitrary files and gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1388",
+    "title": "CVE-1999-1388 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1388\nSeverity: MEDIUM (Score: 6.2)\nWeaknesses: N/A\n\nDescription:\npasswd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument."
+  },
+  {
+    "doc_id": "CVE-1999-1134",
+    "title": "CVE-1999-1134 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1134\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038, PHSS_4055, and PHSS_4066."
+  },
+  {
+    "doc_id": "CVE-1999-0113",
+    "title": "CVE-1999-0113 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [
+      "CWE-88"
+    ],
+    "text": "CVE ID: CVE-1999-0113\nSeverity: HIGH (Score: 10.0)\nWeaknesses: CWE-88\n\nDescription:\nSome implementations of rlogin allow root access if given a -froot parameter."
+  },
+  {
+    "doc_id": "CVE-1999-0423",
+    "title": "CVE-1999-0423 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0423\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0337",
+    "title": "CVE-1999-0337 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0337\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nAIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled."
+  },
+  {
+    "doc_id": "CVE-1999-0207",
+    "title": "CVE-1999-0207 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0207\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nRemote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" command."
+  },
+  {
+    "doc_id": "CVE-1999-1239",
+    "title": "CVE-1999-1239 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1239\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nHP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been authorized to do so."
+  },
+  {
+    "doc_id": "CVE-1999-1552",
+    "title": "CVE-1999-1552 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1552\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\ndpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check privileges, which allows local users to overwrite arbitrary files and gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1494",
+    "title": "CVE-1999-1494 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1494\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\ncolorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument."
+  },
+  {
+    "doc_id": "CVE-1999-1219",
+    "title": "CVE-1999-1219 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1219\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows local users to gain root privileges, possibly through the clogin command."
+  },
+  {
+    "doc_id": "CVE-1999-1238",
+    "title": "CVE-1999-1238 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1238\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1022",
+    "title": "CVE-1999-1022 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1022\nSeverity: MEDIUM (Score: 6.2)\nWeaknesses: N/A\n\nDescription:\nserial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root privileges via a Trojan horse ls program."
+  },
+  {
+    "doc_id": "CVE-1999-1310",
+    "title": "CVE-1999-1310 [UNKNOWN]",
+    "severity": "UNKNOWN",
+    "score": null,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1310\nSeverity: UNKNOWN (Score: N/A)\nWeaknesses: N/A\n\nDescription:\nRejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1999-1022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage"
+  },
+  {
+    "doc_id": "CVE-1999-1248",
+    "title": "CVE-1999-1248 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1248\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1302",
+    "title": "CVE-1999-1302 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1302\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nUnspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1303",
+    "title": "CVE-1999-1303 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1303\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1304",
+    "title": "CVE-1999-1304 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1304\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1305",
+    "title": "CVE-1999-1305 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1305\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-2000-0508",
+    "title": "CVE-2000-0508 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-2000-0508\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nrpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request."
+  },
+  {
+    "doc_id": "CVE-1999-0077",
+    "title": "CVE-1999-0077 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0077\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nPredictable TCP sequence numbers allow spoofing."
+  },
+  {
+    "doc_id": "CVE-1999-0232",
+    "title": "CVE-1999-0232 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0232\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in NCSA WebServer (version 1.5c) gives remote access."
+  },
+  {
+    "doc_id": "CVE-1999-0235",
+    "title": "CVE-1999-0235 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0235\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in NCSA WebServer (1.4.1 and below) gives remote access."
+  },
+  {
+    "doc_id": "CVE-1999-0242",
+    "title": "CVE-1999-0242 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0242\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nRemote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords."
+  },
+  {
+    "doc_id": "CVE-1999-1098",
+    "title": "CVE-1999-1098 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1098\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing."
+  },
+  {
+    "doc_id": "CVE-1999-1243",
+    "title": "CVE-1999-1243 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1243\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nSGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0151",
+    "title": "CVE-1999-0151 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0151\nSeverity: HIGH (Score: 7.6)\nWeaknesses: N/A\n\nDescription:\nThe SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access."
+  },
+  {
+    "doc_id": "CVE-1999-1080",
+    "title": "CVE-1999-1080 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1080\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nrmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentation and its use in previous versions of SunOS, which could allow local users with physical access to gain root privileges by mounting a floppy or CD-ROM that contains a setuid program and running volcheck, when the file systems do not have the nosuid option specified in rmmount.conf."
+  },
+  {
+    "doc_id": "CVE-1999-0066",
+    "title": "CVE-1999-0066 [CRITICAL]",
+    "severity": "CRITICAL",
+    "score": 9.8,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0066\nSeverity: CRITICAL (Score: 9.8)\nWeaknesses: N/A\n\nDescription:\nAnyForm CGI remote execution."
+  },
+  {
+    "doc_id": "CVE-1999-0161",
+    "title": "CVE-1999-0161 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0161\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nIn Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering."
+  },
+  {
+    "doc_id": "CVE-1999-0172",
+    "title": "CVE-1999-0172 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0172\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nFormMail CGI program allows remote execution of commands."
+  },
+  {
+    "doc_id": "CVE-1999-0203",
+    "title": "CVE-1999-0203 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0203\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nIn Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a program."
+  },
+  {
+    "doc_id": "CVE-1999-1580",
+    "title": "CVE-1999-1580 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1580\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable and passing crafted values to the -oR option."
+  },
+  {
+    "doc_id": "CVE-1999-0164",
+    "title": "CVE-1999-0164 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0164\nSeverity: MEDIUM (Score: 6.2)\nWeaknesses: N/A\n\nDescription:\nA race condition in the Solaris ps command allows an attacker to overwrite critical files."
+  },
+  {
+    "doc_id": "CVE-1999-0155",
+    "title": "CVE-1999-0155 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0155\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe ghostscript command with the -dSAFER option allows remote attackers to execute commands."
+  },
+  {
+    "doc_id": "CVE-1999-0245",
+    "title": "CVE-1999-0245 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0245\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nSome configurations of NIS+ in Linux allowed attackers to log in as the user \"+\"."
+  },
+  {
+    "doc_id": "CVE-1999-0218",
+    "title": "CVE-1999-0218 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0218\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nLivingston portmaster machines could be rebooted via a series of commands."
+  },
+  {
+    "doc_id": "CVE-1999-0073",
+    "title": "CVE-1999-0073 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0073\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nTelnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0099",
+    "title": "CVE-1999-0099 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0099\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in syslog utility allows local or remote attackers to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0241",
+    "title": "CVE-1999-0241 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0241\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nGuessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm."
+  },
+  {
+    "doc_id": "CVE-1999-0080",
+    "title": "CVE-1999-0080 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0080\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nCertain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the \"site exec\" command."
+  },
+  {
+    "doc_id": "CVE-1999-0123",
+    "title": "CVE-1999-0123 [LOW]",
+    "severity": "LOW",
+    "score": 3.7,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0123\nSeverity: LOW (Score: 3.7)\nWeaknesses: N/A\n\nDescription:\nRace condition in Linux mailx command allows local users to read user files."
+  },
+  {
+    "doc_id": "CVE-1999-0316",
+    "title": "CVE-1999-0316 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0316\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in Linux splitvt command gives root access to local users."
+  },
+  {
+    "doc_id": "CVE-1999-0325",
+    "title": "CVE-1999-0325 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0325\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nvhe_u_mnt program in HP-UX allows local users to create root files through symlinks."
+  },
+  {
+    "doc_id": "CVE-1999-0208",
+    "title": "CVE-1999-0208 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0208\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nrpc.ypupdated (NIS) allows remote users to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-1186",
+    "title": "CVE-1999-1186 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1186\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nrxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter."
+  },
+  {
+    "doc_id": "CVE-1999-1319",
+    "title": "CVE-1999-1319 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1319\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nVulnerability in object server program in SGI IRIX 5.2 through 6.1 allows remote attackers to gain root privileges in certain configurations."
+  },
+  {
+    "doc_id": "CVE-1999-1491",
+    "title": "CVE-1999-1491 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1491\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nabuse.console in Red Hat 2.1 uses relative pathnames to find and execute the undrv program, which allows local users to execute arbitrary commands via a path that points to a Trojan horse program."
+  },
+  {
+    "doc_id": "CVE-1999-0103",
+    "title": "CVE-1999-0103 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0103\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nEcho and chargen, or other combinations of UDP services, can be used in tandem to flood the server, a.k.a. UDP bomb or UDP packet storm."
+  },
+  {
+    "doc_id": "CVE-1999-0143",
+    "title": "CVE-1999-0143 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0143\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nKerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys."
+  },
+  {
+    "doc_id": "CVE-1999-0233",
+    "title": "CVE-1999-0233 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0233\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nIIS 1.0 allows users to execute arbitrary commands using .bat or .cmd files."
+  },
+  {
+    "doc_id": "CVE-1999-0142",
+    "title": "CVE-1999-0142 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0142\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts."
+  },
+  {
+    "doc_id": "CVE-1999-0067",
+    "title": "CVE-1999-0067 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [
+      "CWE-78"
+    ],
+    "text": "CVE ID: CVE-1999-0067\nSeverity: HIGH (Score: 10.0)\nWeaknesses: CWE-78\n\nDescription:\nphf CGI program allows remote command execution through shell metacharacters."
+  },
+  {
+    "doc_id": "CVE-1999-0141",
+    "title": "CVE-1999-0141 [LOW]",
+    "severity": "LOW",
+    "score": 3.7,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0141\nSeverity: LOW (Score: 3.7)\nWeaknesses: N/A\n\nDescription:\nJava Bytecode Verifier allows malicious applets to execute arbitrary commands as the user of the applet."
+  },
+  {
+    "doc_id": "CVE-1999-0070",
+    "title": "CVE-1999-0070 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0070\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\ntest-cgi program allows an attacker to list files on the server."
+  },
+  {
+    "doc_id": "CVE-1999-1103",
+    "title": "CVE-1999-1103 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1103\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\ndxconsole in DEC OSF/1 3.2C and earlier allows local users to read arbitrary files by specifying the file with the -file parameter."
+  },
+  {
+    "doc_id": "CVE-1999-0078",
+    "title": "CVE-1999-0078 [LOW]",
+    "severity": "LOW",
+    "score": 1.9,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0078\nSeverity: LOW (Score: 1.9)\nWeaknesses: N/A\n\nDescription:\npcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call."
+  },
+  {
+    "doc_id": "CVE-1999-0019",
+    "title": "CVE-1999-0019 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0019\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nDelete or create a file via rpc.statd, due to invalid information."
+  },
+  {
+    "doc_id": "CVE-1999-1314",
+    "title": "CVE-1999-1314 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1314\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nVulnerability in union file system in FreeBSD 2.2 and earlier, and possibly other operating systems, allows local users to cause a denial of service (system reload) via a series of certain mount_union commands."
+  },
+  {
+    "doc_id": "CVE-1999-1313",
+    "title": "CVE-1999-1313 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1313\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nManual page reader (man) in FreeBSD 2.2 and earlier allows local users to gain privileges via a sequence of commands."
+  },
+  {
+    "doc_id": "CVE-1999-0522",
+    "title": "CVE-1999-0522 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0522\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe permissions for a system-critical NIS+ table (e.g. passwd) are inappropriate."
+  },
+  {
+    "doc_id": "CVE-1999-0509",
+    "title": "CVE-1999-0509 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [
+      "CWE-94"
+    ],
+    "text": "CVE ID: CVE-1999-0509\nSeverity: HIGH (Score: 10.0)\nWeaknesses: CWE-94\n\nDescription:\nPerl, sh, csh, or other shell interpreters are installed in the cgi-bin directory on a WWW site, which allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-1205",
+    "title": "CVE-1999-1205 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1205\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nnettune in HP-UX 10.01 and 10.00 is installed setuid root, which allows local users to cause a denial of service by modifying critical networking configuration information."
+  },
+  {
+    "doc_id": "CVE-1999-1253",
+    "title": "CVE-1999-1253 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1253\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in a kernel error handling routine in SCO OpenServer 5.0.2 and earlier, and SCO Internet FastStart 1.0, allows local users to gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0138",
+    "title": "CVE-1999-0138 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0138\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access."
+  },
+  {
+    "doc_id": "CVE-1999-0175",
+    "title": "CVE-1999-0175 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0175\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nThe convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server."
+  },
+  {
+    "doc_id": "CVE-1999-0022",
+    "title": "CVE-1999-0022 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.8,
+    "cwes": [
+      "CWE-125"
+    ],
+    "text": "CVE ID: CVE-1999-0022\nSeverity: HIGH (Score: 7.8)\nWeaknesses: CWE-125\n\nDescription:\nLocal user gains root privileges via buffer overflow in rdist, via expstr() function."
+  },
+  {
+    "doc_id": "CVE-1999-0137",
+    "title": "CVE-1999-0137 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0137\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe dip program on many Linux systems allows local users to gain root access via a buffer overflow."
+  },
+  {
+    "doc_id": "CVE-1999-1301",
+    "title": "CVE-1999-1301 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1301\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nA design flaw in the Z-Modem protocol allows the remote sender of a file to execute arbitrary programs on the client, as implemented in rz in the rzsz module of FreeBSD before 2.1.5, and possibly other programs."
+  },
+  {
+    "doc_id": "CVE-1999-1572",
+    "title": "CVE-1999-1572 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1572\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\ncpio on FreeBSD 2.1.0, Debian GNU/Linux 3.0, and possibly other operating systems, uses a 0 umask when creating files using the -O (archive) or -F options, which creates the files with mode 0666 and allows local users to read or overwrite those files."
+  },
+  {
+    "doc_id": "CVE-1999-0023",
+    "title": "CVE-1999-0023 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0023\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nLocal user gains root privileges via buffer overflow in rdist, via lookup() function."
+  },
+  {
+    "doc_id": "CVE-1999-0135",
+    "title": "CVE-1999-0135 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0135\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nadmintool in Solaris allows a local user to write to arbitrary files and gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0136",
+    "title": "CVE-1999-0136 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0136\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nKodak Color Management System (KCMS) on Solaris allows a local user to write to arbitrary files and gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0335",
+    "title": "CVE-1999-0335 [UNKNOWN]",
+    "severity": "UNKNOWN",
+    "score": null,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0335\nSeverity: UNKNOWN (Score: N/A)\nWeaknesses: N/A\n\nDescription:\nRejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-1999-0032. Reason: This candidate is a duplicate of CVE-1999-0032. Notes: All CVE users should reference CVE-1999-0032 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage"
+  },
+  {
+    "doc_id": "CVE-1999-1413",
+    "title": "CVE-1999-1413 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1413\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nSolaris 2.4 before kernel jumbo patch -35 allows set-gid programs to dump core even if the real user id is not in the set-gid group, which allows local users to overwrite or create files at higher privileges by causing a core dump, e.g. through dmesg."
+  },
+  {
+    "doc_id": "CVE-1999-0134",
+    "title": "CVE-1999-0134 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0134\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nvold in Solaris 2.x allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0133",
+    "title": "CVE-1999-0133 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0133\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nfm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0132",
+    "title": "CVE-1999-0132 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0132\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nExpreserve, as used in vi and ex, allows local users to overwrite arbitrary files and gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0085",
+    "title": "CVE-1999-0085 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0085\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in rwhod on AIX and other operating systems allows remote attackers to execute arbitrary code via a UDP packet with a long hostname."
+  },
+  {
+    "doc_id": "CVE-1999-1187",
+    "title": "CVE-1999-1187 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1187\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nPine before version 3.94 allows local users to gain privileges via a symlink attack on a lockfile that is created when a user receives new mail."
+  },
+  {
+    "doc_id": "CVE-1999-1309",
+    "title": "CVE-1999-1309 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1309\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nSendmail before 8.6.7 allows local users to gain root access via a large value in the debug (-d) command line option."
+  },
+  {
+    "doc_id": "CVE-1999-0324",
+    "title": "CVE-1999-0324 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0324\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nppl program in HP-UX allows local users to create root files through symlinks."
+  },
+  {
+    "doc_id": "CVE-1999-1252",
+    "title": "CVE-1999-1252 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1252\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in a certain system call in SCO UnixWare 2.0.x and 2.1.0 allows local users to access arbitrary files and gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-0131",
+    "title": "CVE-1999-0131 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0131\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow and denial of service in Sendmail 8.7.5 and earlier through GECOS field gives root access to local users."
+  },
+  {
+    "doc_id": "CVE-1999-1383",
+    "title": "CVE-1999-1383 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [
+      "CWE-264"
+    ],
+    "text": "CVE ID: CVE-1999-1383\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: CWE-264\n\nDescription:\n(1) bash before 1.14.7, and (2) tcsh 6.05 allow local users to gain privileges via directory names that contain shell metacharacters (` back-tick), which can cause the commands enclosed in the directory name to be executed when the shell expands filenames using the \\w option in the PS1 variable."
+  },
+  {
+    "doc_id": "CVE-1999-1295",
+    "title": "CVE-1999-1295 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1295\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nTransarc DCE Distributed File System (DFS) 1.1 for Solaris 2.4 and 2.5 does not properly initialize the grouplist for users who belong to a large number of groups, which could allow those users to gain access to resources that are protected by DFS."
+  },
+  {
+    "doc_id": "CVE-1999-0116",
+    "title": "CVE-1999-0116 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0116\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nDenial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood."
+  },
+  {
+    "doc_id": "CVE-1999-0961",
+    "title": "CVE-1999-0961 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0961\nSeverity: MEDIUM (Score: 6.2)\nWeaknesses: N/A\n\nDescription:\nHPUX sysdiag allows local users to gain root privileges via a symlink attack during log file creation."
+  },
+  {
+    "doc_id": "CVE-1999-0206",
+    "title": "CVE-1999-0206 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0206\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nMIME buffer overflow in Sendmail 8.8.0 and 8.8.1 gives root access."
+  },
+  {
+    "doc_id": "CVE-1999-0246",
+    "title": "CVE-1999-0246 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0246\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nHP Remote Watch allows a remote user to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0308",
+    "title": "CVE-1999-0308 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0308\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nHP-UX gwind program allows users to modify arbitrary files."
+  },
+  {
+    "doc_id": "CVE-1999-0319",
+    "title": "CVE-1999-0319 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0319\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in xmcd 2.1 allows local users to gain access through a user resource setting."
+  },
+  {
+    "doc_id": "CVE-1999-0234",
+    "title": "CVE-1999-0234 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0234\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nBash treats any character with a value of 255 as a command separator."
+  },
+  {
+    "doc_id": "CVE-1999-0075",
+    "title": "CVE-1999-0075 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0075\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nPASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password."
+  },
+  {
+    "doc_id": "CVE-1999-0032",
+    "title": "CVE-1999-0032 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0032\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option."
+  },
+  {
+    "doc_id": "CVE-1999-0277",
+    "title": "CVE-1999-0277 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0277\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nThe WorkMan program can be used to overwrite any file to get root access."
+  },
+  {
+    "doc_id": "CVE-1999-1384",
+    "title": "CVE-1999-1384 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1384\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nIndigo Magic System Tour in the SGI system tour package (systour) for IRIX 5.x through 6.3 allows local users to gain root privileges via a Trojan horse .exitops program, which is called by the inst command that is executed by the RemoveSystemTour program."
+  },
+  {
+    "doc_id": "CVE-1999-0311",
+    "title": "CVE-1999-0311 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0311\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nfpkg2swpk in HP-UX allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-0336",
+    "title": "CVE-1999-0336 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0336\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in mstm in HP-UX allows local users to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1161",
+    "title": "CVE-1999-1161 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1161\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nVulnerability in ppl in HP-UX 10.x and earlier allows local users to gain root privileges by forcing ppl to core dump."
+  },
+  {
+    "doc_id": "CVE-1999-0130",
+    "title": "CVE-1999-0130 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0130\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nLocal users can start Sendmail in daemon mode and gain root privileges."
+  },
+  {
+    "doc_id": "CVE-1999-1221",
+    "title": "CVE-1999-1221 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1221\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\ndxchpwd in Digital Unix (OSF/1) 3.x allows local users to modify arbitrary files via a symlink attack on the dxchpwd.log file."
+  },
+  {
+    "doc_id": "CVE-1999-1099",
+    "title": "CVE-1999-1099 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1099\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nKerberos 4 allows remote attackers to obtain sensitive information via a malformed UDP packet that generates an error string that inadvertently includes the realm name and the last user."
+  },
+  {
+    "doc_id": "CVE-1999-1240",
+    "title": "CVE-1999-1240 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1240\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in cddbd CD database server allows remote attackers to execute arbitrary commands via a long log message."
+  },
+  {
+    "doc_id": "CVE-1999-0050",
+    "title": "CVE-1999-0050 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0050\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in HP-UX newgrp program."
+  },
+  {
+    "doc_id": "CVE-1999-0044",
+    "title": "CVE-1999-0044 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0044\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nfsdump command in IRIX allows local users to obtain root access by modifying sensitive files."
+  },
+  {
+    "doc_id": "CVE-1999-0129",
+    "title": "CVE-1999-0129 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0129\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nSendmail allows local users to write to a file and gain group permissions via a .forward or :include: file."
+  },
+  {
+    "doc_id": "CVE-1999-0043",
+    "title": "CVE-1999-0043 [CRITICAL]",
+    "severity": "CRITICAL",
+    "score": 9.8,
+    "cwes": [
+      "CWE-78"
+    ],
+    "text": "CVE ID: CVE-1999-0043\nSeverity: CRITICAL (Score: 9.8)\nWeaknesses: CWE-78\n\nDescription:\nCommand execution via shell metachars in INN daemon (innd) 1.5 using \"newgroup\" and \"rmgroup\" control messages, and others."
+  },
+  {
+    "doc_id": "CVE-1999-1401",
+    "title": "CVE-1999-1401 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 4.6,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1401\nSeverity: MEDIUM (Score: 4.6)\nWeaknesses: N/A\n\nDescription:\nVulnerability in Desktop searchbook program in IRIX 5.0.x through 6.2 sets insecure permissions for certain user files (iconbook and searchbook)."
+  },
+  {
+    "doc_id": "CVE-1999-0045",
+    "title": "CVE-1999-0045 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0045\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nList of arbitrary files on Web host via nph-test-cgi script."
+  },
+  {
+    "doc_id": "CVE-1999-0096",
+    "title": "CVE-1999-0096 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0096\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nSendmail decode alias can be used to overwrite sensitive files."
+  },
+  {
+    "doc_id": "CVE-1999-0101",
+    "title": "CVE-1999-0101 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0101\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in AIX and Solaris \"gethostbyname\" library call allows root access through corrupt DNS host names."
+  },
+  {
+    "doc_id": "CVE-1999-0297",
+    "title": "CVE-1999-0297 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0297\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in Vixie Cron library up to version 3.0 allows local users to obtain root access via a long environmental variable."
+  },
+  {
+    "doc_id": "CVE-1999-1089",
+    "title": "CVE-1999-1089 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1089\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in chfn command in HP-UX 9.X through 10.20 allows local users to gain privileges via a long command line argument."
+  },
+  {
+    "doc_id": "CVE-1999-0128",
+    "title": "CVE-1999-0128 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0128\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nOversized ICMP ping packets can result in a denial of service, aka Ping o' Death."
+  },
+  {
+    "doc_id": "CVE-1999-0127",
+    "title": "CVE-1999-0127 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0127\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nswinstall and swmodify commands in SD-UX package in HP-UX systems allow local users to create or overwrite arbitrary files to gain root access."
+  },
+  {
+    "doc_id": "CVE-1999-1385",
+    "title": "CVE-1999-1385 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1385\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in ppp program in FreeBSD 2.1 and earlier allows local users to gain privileges via a long HOME environment variable."
+  },
+  {
+    "doc_id": "CVE-1999-1026",
+    "title": "CVE-1999-1026 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1026\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\naspppd on Solaris 2.5 x86 allows local users to modify arbitrary files and gain root privileges via a symlink attack on the /tmp/.asppp.fifo file."
+  },
+  {
+    "doc_id": "CVE-1999-0260",
+    "title": "CVE-1999-0260 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0260\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe jj CGI program allows command execution via shell metacharacters."
+  },
+  {
+    "doc_id": "CVE-1999-1251",
+    "title": "CVE-1999-1251 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-1251\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nVulnerability in direct audio user space code on HP-UX 10.20 and 10.10 allows local users to cause a denial of service."
+  },
+  {
+    "doc_id": "CVE-1999-0100",
+    "title": "CVE-1999-0100 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0100\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nRemote access in AIX innd 1.5.1, using control messages."
+  },
+  {
+    "doc_id": "CVE-1999-0163",
+    "title": "CVE-1999-0163 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0163\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nIn older versions of Sendmail, an attacker could use a pipe character to execute root commands."
+  },
+  {
+    "doc_id": "CVE-1999-0166",
+    "title": "CVE-1999-0166 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0166\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nNFS allows users to use a \"cd ..\" command to access other directories besides the exported file system."
+  },
+  {
+    "doc_id": "CVE-1999-0170",
+    "title": "CVE-1999-0170 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0170\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nRemote attackers can mount an NFS file system in Ultrix or OSF, even if it is denied on the access list."
+  },
+  {
+    "doc_id": "CVE-1999-0171",
+    "title": "CVE-1999-0171 [LOW]",
+    "severity": "LOW",
+    "score": 2.1,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0171\nSeverity: LOW (Score: 2.1)\nWeaknesses: N/A\n\nDescription:\nDenial of service in syslog by sending it a large number of superfluous messages."
+  },
+  {
+    "doc_id": "CVE-1999-0173",
+    "title": "CVE-1999-0173 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0173\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nFormMail CGI program can be used by web servers other than the host server that the program resides on."
+  },
+  {
+    "doc_id": "CVE-1999-0178",
+    "title": "CVE-1999-0178 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0178\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nBuffer overflow in the win-c-sample program (win-c-sample.exe) in the WebSite web server 1.1e allows remote attackers to execute arbitrary code via a long query string."
+  },
+  {
+    "doc_id": "CVE-1999-0179",
+    "title": "CVE-1999-0179 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [
+      "CWE-17"
+    ],
+    "text": "CVE ID: CVE-1999-0179\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: CWE-17\n\nDescription:\nWindows NT crashes or locks up when a Samba client executes a \"cd ..\" command on a file share."
+  },
+  {
+    "doc_id": "CVE-1999-0180",
+    "title": "CVE-1999-0180 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0180\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nin.rshd allows users to login with a NULL username and execute commands."
+  },
+  {
+    "doc_id": "CVE-1999-0201",
+    "title": "CVE-1999-0201 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 6.4,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0201\nSeverity: MEDIUM (Score: 6.4)\nWeaknesses: N/A\n\nDescription:\nA quote cwd command on FTP servers can reveal the full path of the home directory of the \"ftp\" user."
+  },
+  {
+    "doc_id": "CVE-1999-0202",
+    "title": "CVE-1999-0202 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0202\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nThe GNU tar command, when used in FTP sessions, may allow an attacker to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-0204",
+    "title": "CVE-1999-0204 [HIGH]",
+    "severity": "HIGH",
+    "score": 10.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0204\nSeverity: HIGH (Score: 10.0)\nWeaknesses: N/A\n\nDescription:\nSendmail 8.6.9 allows remote attackers to execute root commands, using ident."
+  },
+  {
+    "doc_id": "CVE-1999-0217",
+    "title": "CVE-1999-0217 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0217\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nMalicious option settings in UDP packets could force a reboot in SunOS 4.1.3 systems."
+  },
+  {
+    "doc_id": "CVE-1999-0236",
+    "title": "CVE-1999-0236 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.5,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0236\nSeverity: HIGH (Score: 7.5)\nWeaknesses: N/A\n\nDescription:\nScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs."
+  },
+  {
+    "doc_id": "CVE-1999-0249",
+    "title": "CVE-1999-0249 [HIGH]",
+    "severity": "HIGH",
+    "score": 7.2,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0249\nSeverity: HIGH (Score: 7.2)\nWeaknesses: N/A\n\nDescription:\nWindows NT RSHSVC program allows remote users to execute arbitrary commands."
+  },
+  {
+    "doc_id": "CVE-1999-0251",
+    "title": "CVE-1999-0251 [MEDIUM]",
+    "severity": "MEDIUM",
+    "score": 5.0,
+    "cwes": [],
+    "text": "CVE ID: CVE-1999-0251\nSeverity: MEDIUM (Score: 5.0)\nWeaknesses: N/A\n\nDescription:\nDenial of service in talk program allows remote attackers to disrupt a user's display."
+  }
+]
